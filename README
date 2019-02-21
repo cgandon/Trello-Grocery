@@ -1,0 +1,9 @@
+I use trello to simplify management of menus for my Kids together wiht their baby sitter.
+I setup a public Trello board so that my kids baby sitter knows what dishes she has to prepare for them in the evening
+The trello board is available here: : https://trello.com/b/llQLXb1E/menus 
+
+I used a python script to generate grocery list based on menus planned for the week.
+
+* the Trello Board has 1 column per day of the week, 1 columns for the "reserve" of all possible dishes, and a columns for grocery shopping
+* when preparing menus for the week, I allocate dishes from "reserve" to weekday, and unflag ingredient I don't have in the fridge
+* Then, running the Python script scans through all dishes selected for the week, and compile all missing ingredients into the "liste de course" card ("grocery list")
